@@ -7,11 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
   <style>
-      /* 隐藏 Webkit 浏览器 (如 Chrome, Safari) 中的默认箭头 */
       summary::-webkit-details-marker {
           display: none;
       }
-      /* 隐藏 Firefox 中的默认箭头 */
       summary {
           list-style: none;
       }
@@ -21,20 +19,20 @@
       }
 
       summary::before {
-          content: '▲'; /* 定义箭头符号，可以使用其他符号或图标 */
+          content: '▲'; 
           display: inline-block;
-          font-size: 20px; /* 调整箭头大小 */
-          transition: transform 0.3s; /* 添加动画效果 */
-          margin-right: 10px; /* 调整箭头和文本之间的距离 */
+          font-size: 20px; 
+          transition: transform 0.3s; 
+          margin-right: 10px; 
       }
       details[open] summary::before {
-          transform: rotate(180deg); /* 打开时旋转箭头 */
+          transform: rotate(180deg);
       }
 
   </style>
 
   <style type="text/css">
-      /* Color scheme stolen from Sergey Karayev */
+      /* Color scheme from Sergey Karayev */
       a {
           color: #1772d0;
           text-decoration: none;
