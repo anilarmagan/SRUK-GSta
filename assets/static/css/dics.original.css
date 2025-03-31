@@ -5,6 +5,8 @@
   overflow  : hidden;
   display   : flex;
   opacity   : 0;
+  justify-items: center;
+  align-items: center;
   /* transform: translateX(12%); */
 }
 
