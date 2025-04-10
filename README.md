@@ -21,7 +21,7 @@ Code coming soon!
         @Article{armagan2025gsta,
       author       = {Armagan},
       title        = {GSta: Efficient Training Scheme with Siestaed Gaussians for Monocular 3D Scene Reconstruction},
-      journal      = {in submission},
+      journal      = {arXiv preprint arXiv:2504.06716},
       year         = {2025},
       url          = {https://github.com/anilarmagan/SRUK-GSta)}
 }
